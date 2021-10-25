@@ -1,0 +1,144 @@
+
+html {overflow-y: scroll;}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg {
+  background-image: url("./static/images/ps-bakkies.jpg");
+  height:400px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us {
+  margin-top:50px;
+  margin-bottom:50px;
+
+}
+
+.about-since {
+    margin-top:20px;
+    margin-bottom: 10px;
+    color: #484848;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+    position: relative;
+    padding-right: 20px;
+}
+
+.icon-box__icon {
+  text-align: center;
+  margin-right: 20px;
+  flex-basis: 50px;
+  width: 50px;
+}
+
+.icon-box__info {
+  flex-basis: 215px;
+  width: 215px;
+  text-align: left;
+}
+
+.our-services {
+  position: relative;
+  background-color: rgb(111,196,192);
+}
+
+
+
+.section-title {
+    margin-bottom: 55px;
+}
+.service-content-area {
+  margin-top: -170px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.service-item {
+    margin-top: 30px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  height:100px;
+}
+
+.our-team{
+  background-color: darkslategrey;
+  padding-top:100px;
+  padding-left:50px;
+  padding-bottom:100px;
+}
+
+.navbar{
+height:100px;
+font-size: large;
+}
+
+.navbar-brand{
+  padding-right: 100px ;
+}
+.nav-item{
+  padding-right: 25px;
+  
+}
+.address{
+  font-size: larger;
+  font-weight: 450;
+ }
+
+.portrait-card{
+  border-radius: 20px;
+}
+
