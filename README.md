@@ -8,5 +8,5 @@ Install Node.js
 
 Then in the project folder run:
 
-## npm install
-## npm start
+-npm install
+-npm start
